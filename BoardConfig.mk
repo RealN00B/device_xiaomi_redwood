@@ -9,6 +9,9 @@ DEVICE_PATH := device/xiaomi/redwood
 # Inherit from sm8350-common
 include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 
+# Board
+TARGET_BOOTLOADER_BOARD_NAME := redwood
+
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/redwood_QGKI.config
 
