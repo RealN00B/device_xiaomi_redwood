@@ -14,6 +14,7 @@ TARGET_BOOTLOADER_BOARD_NAME := redwood
 
 # Ignore overriding commands errors
 BUILD_BROKEN_DUP_RULES := true
+RELAX_USES_LIBRARY_CHECK=true
 
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/redwood_QGKI.config
