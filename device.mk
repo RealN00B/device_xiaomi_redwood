@@ -31,6 +31,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.set_idle_timer_ms=4000 \
     ro.surface_flinger.set_touch_timer_ms=4000
 
+# Sensors
+PRODUCT_PACKAGES += \
+    android.frameworks.sensorservice@1.0 \
+    android.frameworks.sensorservice@1.0.vendor
+
 # WiFi Display
 PRODUCT_SYSTEM_PROPERTIES += \
     vendor.sys.video.disable.ubwc=1
