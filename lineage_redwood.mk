@@ -22,8 +22,13 @@ PRODUCT_NAME := lineage_redwood
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+PRODUCT_SYSTEM_NAME := redwood
+PRODUCT_SYSTEM_DEVICE := redwood
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="redwood-user 12 RKQ1.211001.001 V14.0.1.0.TMSMIXM release-keys"
+    PRIVATE_BUILD_DESC="redwood-user 12 RKQ1.211001.001 V14.0.1.0.TMSMIXM release-keys" \
+    TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
+    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := Redmi/redwood/redwood:12/RKQ1.211001.001/V14.0.1.0.TMSMIXM:user/release-keys
