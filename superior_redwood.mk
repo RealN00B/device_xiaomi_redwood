@@ -18,6 +18,7 @@ $(call inherit-product, vendor/superior/config/common.mk)
 USE_MOTO_CALCULATOR := true
 USE_DUCKDUCKGO := true
 TARGET_INCLUDE_PIXEL_CHARGER:= true
+TARGET_SUPPORTS_BLUR:= true
 
 PRODUCT_BRAND := Redmi
 PRODUCT_DEVICE := redwood
