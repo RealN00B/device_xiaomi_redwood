@@ -12,13 +12,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/redwood/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
+#Gapps
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCLUDE_PIXEL_CHARGER := true
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 PRODUCT_BRAND := Redmi
 PRODUCT_DEVICE := redwood
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_MODEL := 22101320C
-PRODUCT_NAME := lineage_redwood
+PRODUCT_MODEL := Poco X5 Pro 5G
+PRODUCT_NAME := aosp_redwood
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
