@@ -9,7 +9,7 @@ set -e
 
 # Required!
 export DEVICE=redwood
-export DEVICE_COMMON=sm8350-common
+export DEVICE_COMMON=sm7325-common
 export VENDOR=xiaomi
 
 "./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"

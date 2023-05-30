@@ -6,8 +6,8 @@
 
 DEVICE_PATH := device/xiaomi/redwood
 
-# Inherit from sm8350-common
-include device/xiaomi/sm8350-common/BoardConfigCommon.mk
+# Inherit from sm7325-common
+include device/xiaomi/sm7325-common/BoardConfigCommon.mk
 
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := redwood
