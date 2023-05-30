@@ -27,4 +27,10 @@
     
     <!--  Blur radius on status bar window and power menu  -->
     <dimen name="max_window_blur_radius">100px</dimen>
+    
+    <!-- the padding on the start of the statusbar -->
+    <dimen name="status_bar_padding_start">3dp</dimen>
+
+    <!-- the padding on the end of the statusbar -->
+    <dimen name="status_bar_padding_end">3dp</dimen>
 </resources>
