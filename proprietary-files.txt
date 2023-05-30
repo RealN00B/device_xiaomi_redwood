@@ -93,10 +93,6 @@ vendor/lib/libvideoNS.so
 # Audio firmware
 vendor/firmware/aw882xx_acf.bin
 
-# Batterysecret
-vendor/bin/batterysecret
-vendor/etc/init/hw/init.batterysecret.rc
-
 # Charger
 vendor/bin/hvdcp_opti
 vendor/bin/init.qti.chg_policy.sh
