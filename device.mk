@@ -4,8 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit from sm8350-common
-$(call inherit-product, device/xiaomi/sm8350-common/common.mk)
+# Inherit from sm7325-common
+$(call inherit-product, device/xiaomi/sm7325-common/common.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
