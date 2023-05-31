@@ -10,13 +10,13 @@ vendor/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp
+vendor/etc/acdbdata/adsp_avs_config.acdb
 vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.10.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.00.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd
 vendor/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd
 vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.10.pmd
-vendor/etc/acdbdata/adsp_avs_config.acdb
 
 # ACDB libraries
 vendor/lib/libacdb-fts.so
@@ -96,9 +96,9 @@ vendor/firmware/aw882xx_acf.bin
 # Charger
 vendor/bin/hvdcp_opti
 vendor/bin/init.qti.chg_policy.sh
-vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 vendor/etc/charger_fstab.qti
 vendor/etc/charger_fw_fstab.qti
+vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 
 # Camera
 vendor/etc/camera/3rdpartconfigure.txt
@@ -233,12 +233,11 @@ vendor/lib64/hw/camera.xiaomi.so
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/lib3rdpartcontext.so
 vendor/lib64/libAF.so
-vendor/lib64/libQnnHtpStub.so
 vendor/lib64/libI420colorconvert.so
+vendor/lib64/libQnnHtpStub.so
 vendor/lib64/libSNPE.so
 vendor/lib64/libXMFaceFocus.so
 vendor/lib64/libadreno_app_profiles.so
-vendor/lib64/libarc_sat.so
 vendor/lib64/libaidenoiser.so
 vendor/lib64/libaidenoiserv2.so
 vendor/lib64/libalAILDC.so
@@ -248,6 +247,7 @@ vendor/lib64/libalhLDC.so
 vendor/lib64/libanc_dc_base.so
 vendor/lib64/libanc_hdr.so
 vendor/lib64/libancbase.so
+vendor/lib64/libarc_sat.so
 vendor/lib64/libbitmlengine.so
 vendor/lib64/libbitmlenginev2.so
 vendor/lib64/libc++_shared.so
@@ -266,14 +266,14 @@ vendor/lib64/libcom.xiaomi.debug.so
 vendor/lib64/libcom.xiaomi.grallocutils.so
 vendor/lib64/libcom.xiaomi.metadatautils.so
 vendor/lib64/libcom.xiaomi.pluginutils.so
+vendor/lib64/libdeflicker.so
 vendor/lib64/libdualcam_optical_zoom_control.so
 vendor/lib64/libdualcam_video_optical_zoom.so
+vendor/lib64/libfocus.so
 vendor/lib64/libhdrdynamic.so
 vendor/lib64/libhdrdynamicootf.so
 vendor/lib64/libipebpsstriping.so
 vendor/lib64/libipebpsstriping170.so
-vendor/lib64/libdeflicker.so
-vendor/lib64/libfocus.so
 vendor/lib64/libmiXmlParser.so
 vendor/lib64/libmiai_portraitsupernight.so
 vendor/lib64/libmialgo_ai_vision.so
@@ -299,16 +299,16 @@ vendor/lib64/libomp.so
 vendor/lib64/libopencv.so
 vendor/lib64/libopestriping.so
 vendor/lib64/libos.so
+vendor/lib64/libpreview_beautyeffect.so
 vendor/lib64/libqll10.so
 vendor/lib64/libqllengine.so
 vendor/lib64/librelight_only.so
 vendor/lib64/libremosaic_wrapper.so
 vendor/lib64/libremosaiclib.so
-vendor/lib64/libpreview_beautyeffect.so
 vendor/lib64/libsnpe_dsp_domains_v2.so
 vendor/lib64/libsnpe_dsp_domains_v3.so
-vendor/lib64/libsns_device_mode_stub.so
 vendor/lib64/libsns_api.so
+vendor/lib64/libsns_device_mode_stub.so
 vendor/lib64/libsns_fastRPC_util.so
 vendor/lib64/libsns_low_lat_stream_stub.so
 vendor/lib64/libsns_registry_skel.so
@@ -551,9 +551,9 @@ vendor/firmware/goodix_firmware_m20.bin
 # Fingerprint
 vendor/lib64/com.fingerprints.extension@3.0.so
 vendor/lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.default.so
-vendor/lib64/libgoodixhwfingerprint.so
 vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_hal.so
+vendor/lib64/libgoodixhwfingerprint.so
 vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
 
 # Graphics firmware
