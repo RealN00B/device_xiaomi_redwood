@@ -13,13 +13,11 @@ include device/xiaomi/sm7325-common/BoardConfigCommon.mk
 TARGET_BOOTLOADER_BOARD_NAME := redwood
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/redwood_QGKI.config
+TARGET_KERNEL_CONFIG += vendor/redwood-fragment.config
 
 # Kernel modules
 BOOT_KERNEL_MODULES := \
     goodix_core.ko \
-    hwid.ko \
-    msm_drm.ko \
     xiaomi_touch.ko
 
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
