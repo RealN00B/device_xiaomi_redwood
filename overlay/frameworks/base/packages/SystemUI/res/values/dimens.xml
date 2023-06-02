@@ -26,7 +26,7 @@
     <dimen name="physical_power_button_center_screen_location_y">1060px</dimen>
     
     <!--  Blur radius on status bar window and power menu  -->
-    <dimen name="max_window_blur_radius">100px</dimen>
+    <dimen name="max_window_blur_radius">150px</dimen>
     
     <!-- the padding on the start of the statusbar -->
     <dimen name="status_bar_padding_start">3dp</dimen>
