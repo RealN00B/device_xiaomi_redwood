@@ -32,3 +32,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := POCO/redwood_eea/redwood:12/RKQ1.211001.001/V14.0.8.0.SMSEUXM:user/release-keys
+
+# Aditional
+TARGET_ENABLE_BLUR := true
