@@ -1,6 +1,7 @@
 adsp_loader_dlkm.ko
 apr_dlkm.ko
 aw882xx_dlkm.ko
+awinic-haptic.ko
 bolero_cdc_dlkm.ko
 bt_fm_slim.ko
 btpower.ko
@@ -43,6 +44,7 @@ mxl301rf.ko
 mxl5005s.ko
 mxl5007t.ko
 native_dlkm.ko
+nfc_i2c.ko
 pinctrl_lpi_dlkm.ko
 pinctrl_wcd_dlkm.ko
 platform_dlkm.ko
@@ -53,7 +55,7 @@ qcom_edac.ko
 qm1d1b0004.ko
 qm1d1c0042.ko
 qt1010.ko
-qti_battery_charger_main.ko
+qti_battery_charger_main_odin.ko
 r820t.ko
 radio-i2c-rtc6226-qca.ko
 rdbg.ko
@@ -91,6 +93,7 @@ wcd938x_slave_dlkm.ko
 wcd9xxx_dlkm.ko
 wcd_core_dlkm.ko
 wlan.ko
+wlan_firmware_service_v01.ko
 wsa883x_dlkm.ko
 wsa_macro_dlkm.ko
 xc4000.ko
